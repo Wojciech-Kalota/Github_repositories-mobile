@@ -14,11 +14,11 @@ Do projektu zostało użyte JDK 11 jako, że przed wyjściem stosunkowo jeszcze 
 
 # Pomysły na dalszy rozwój aplikacji: 
 
-Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbudować, a o to kilka z nich:
--dodanbie opisów i dat utworzenia repozytoriów
--dodanie zdjęcia profilowego przeglądanego użytkownika do paska
--autoryzacja użytkownika w celu możliwości przeglądania prywatnych repozytoriów udostępnionych do wglądu danemu użytkownikowi
--dodanie kolorków odpowiadających każdemu językowi tak jak na platformie Github, by uczynić aplikację atrakcyjniejszą wizualnie
+Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbudować, a o to kilka z nich:<br />
+-dodanbie opisów i dat utworzenia repozytoriów<br />
+-dodanie zdjęcia profilowego przeglądanego użytkownika do paska<br />
+-autoryzacja użytkownika w celu możliwości przeglądania prywatnych repozytoriów udostępnionych do wglądu danemu użytkownikowi<br />
+-dodanie kolorków odpowiadających każdemu językowi tak jak na platformie Github, by uczynić aplikację atrakcyjniejszą wizualnie<br />
 -dodanie możliwości przeniesienia na stronę github, by móc dogłębnie przejrzeć dane repozytorium.
 
 # Problemy napotkane przy tworzeniu projektu:
