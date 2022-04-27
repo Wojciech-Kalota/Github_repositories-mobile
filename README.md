@@ -11,6 +11,19 @@ Aplikacja zakłada, że użytkownik posiada wersję systemu android nie starszą
 Wersja ta jest zainstalowana na około 89% urządzeń z sytemem Android, co powinno zagwarantować poprawne działanie na praktycznie wszystkich używanych urządzeniach.
 Do projektu zostało użyte JDK 11 jako, że przed wyjściem stosunkowo jeszcze nowego JDK 17, był to najnowszy LTS, na którym to zbudowana jest bardzo duża część aplikacji.
 
+# Zabezpieczenia:
+
+Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się aplikacji w przypadku ich wystąpienia:
+-nieprawidłowa nazwa użytkownika
+-kilka stron repozytoriów na profilu podanego użytkownika
+-brak repozytoriów
+
+# Udogodnienia:
+
+Aby zwiększyć przyjemność wynikającą z użytkowania zdecydowałem się na dodanie następujących rzeczy:
+-podpowiedź co należy wpisać w polu wyszukiwania
+-po wyjściu z wyszukiwania na górnymn pasku wyświetla się wpisana nazwa użytkownika
+-paleta kolorów przypomająca tą z serwisu Github
 
 # Pomysły na dalszy rozwój aplikacji: 
 
