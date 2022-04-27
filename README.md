@@ -13,7 +13,7 @@ Do projektu zostało użyte JDK 11 jako, że przed wyjściem stosunkowo jeszcze 
 
 # Zabezpieczenia:
 
-Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się aplikacji w przypadku ich wystąpienia:<br />
+Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się/nieprawidłowemu działaniu aplikacji w przypadku ich wystąpienia:<br />
 -nieprawidłowa nazwa użytkownika<br />
 -kilka stron repozytoriów na profilu podanego użytkownika<br />
 -brak repozytoriów
