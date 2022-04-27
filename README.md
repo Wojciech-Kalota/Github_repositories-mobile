@@ -13,16 +13,16 @@ Do projektu zostało użyte JDK 11 jako, że przed wyjściem stosunkowo jeszcze 
 
 # Zabezpieczenia:
 
-Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się aplikacji w przypadku ich wystąpienia:
--nieprawidłowa nazwa użytkownika
--kilka stron repozytoriów na profilu podanego użytkownika
+Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się aplikacji w przypadku ich wystąpienia:<br />
+-nieprawidłowa nazwa użytkownika<br />
+-kilka stron repozytoriów na profilu podanego użytkownika<br />
 -brak repozytoriów
 
 # Udogodnienia:
 
-Aby zwiększyć przyjemność wynikającą z użytkowania zdecydowałem się na dodanie następujących rzeczy:
--podpowiedź co należy wpisać w polu wyszukiwania
--po wyjściu z wyszukiwania na górnymn pasku wyświetla się wpisana nazwa użytkownika
+Aby zwiększyć przyjemność wynikającą z użytkowania zdecydowałem się na dodanie następujących rzeczy:<br />
+-podpowiedź co należy wpisać w polu wyszukiwania<br />
+-po wyjściu z wyszukiwania na górnymn pasku wyświetla się wpisana nazwa użytkownika<br />
 -paleta kolorów przypomająca tą z serwisu Github
 
 # Pomysły na dalszy rozwój aplikacji: 
