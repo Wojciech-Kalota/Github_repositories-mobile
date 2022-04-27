@@ -21,7 +21,7 @@ Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbu
 -dodanie kolorków odpowiadających każdemu językowi tak jak na platformie Github, by uczynić aplikację atrakcyjniejszą wizualnie
 -dodanie możliwości przeniesienia na stronę github, by móc dogłębnie przejrzeć dane repozytorium
 
-# Problemy nqapotkane przy tworzeniu projektu:
+# Problemy napotkane przy tworzeniu projektu:
 
 Częścią życia programisty jest borykanie się z błędami i nie powinno się wstydzić o tym mówić. Wszystkie problemy udało mi się rozwiązać stosunkowo szybko, jednak sen z powiek spędzał mi brak możliwości używania biblioteki java.net.http.
 
