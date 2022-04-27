@@ -3,7 +3,7 @@ Mobilna aplikacja wyświetlająca listę repozytoriów i liczbę bajtów napisan
 
 # Jak uruchomić:
 
-//TODO 
+Aby uruchomić aplikację należy uruchomić plik Github_repositories.apk
 
 # Założenia:
 
