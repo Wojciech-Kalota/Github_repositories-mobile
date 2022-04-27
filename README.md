@@ -1,3 +1,7 @@
+# Email:
+
+wojciech.kalota1@gmail.com
+
 # allegro-summer-experiance-2022
 Mobilna aplikacja wyświetlająca listę repozytoriów i liczbę bajtów napisanych w użytych językach dla danego użytkownika.
 
@@ -41,4 +45,3 @@ Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbu
 Częścią życia programisty jest borykanie się z błędami i nie powinno się wstydzić o tym mówić. Wszystkie problemy udało mi się rozwiązać stosunkowo szybko, jednak sen z powiek spędzał mi brak możliwości używania biblioteki java.net.http.
 
 Owa biblioteka została dodana w 11 wersji Javy, co nie powinno stanowić problemu, gdyż takiej właśnie wersji używałem w projekcie. Na pewno też nie używałem wersji przed 10, gdyż "var", które zostało dodane w owej wersji działało poprawnie. Po licznych próbach naprawy importu poprzez reinstalację javy, grzebania w konfiguracji projektu i próbowania innych wersji JDK, gradle oraz API ostatecznie poradziłem sobie z problemem poprzez napisanie http requesta w stary sposób, sprzed dodania omawianej biblioteki. Podejrzewam, że problemem było JDK, jednak jeszcze nie udało mi się tego ustalić, a czasu brak. Jest to główny powód z którego wynika moje opóźnienie, za co najmocniej przepraszam.
-
