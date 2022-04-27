@@ -19,7 +19,7 @@ Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbu
 -dodanie zdjęcia profilowego przeglądanego użytkownika do paska
 -autoryzacja użytkownika w celu możliwości przeglądania prywatnych repozytoriów udostępnionych do wglądu danemu użytkownikowi
 -dodanie kolorków odpowiadających każdemu językowi tak jak na platformie Github, by uczynić aplikację atrakcyjniejszą wizualnie
--dodanie możliwości przeniesienia na stronę github, by móc dogłębnie przejrzeć dane repozytorium
+-dodanie możliwości przeniesienia na stronę github, by móc dogłębnie przejrzeć dane repozytorium.
 
 # Problemy napotkane przy tworzeniu projektu:
 
