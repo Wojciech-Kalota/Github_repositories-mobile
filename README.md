@@ -10,7 +10,7 @@ In order to run the application one must download file Github_repositories.apk<b
 
 The application requires an Android version no lower than 7.0 (API 24)<br />
 As of writing this description, 89% of all Android devices fit the requirement, which means that almost every device should be able to run the application.<br />
-The project has been created with JDK 11, as it's been the newest LTS before the release of still quite new JDK 17.<br />
+The project has been created with JDK 11, as it's been the newest LTS before the release of, still quite new, JDK 17.<br />
 
 # Algorithm safety:
 
