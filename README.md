@@ -1,47 +1,43 @@
-# Email:
+# Github repositories:
 
-wojciech.kalota1@gmail.com
+Mobile application displaying a list of repositories, languages used, and amount of bites codded in each language for a specified user.
 
-# allegro-summer-experiance-2022
-Mobilna aplikacja wyświetlająca listę repozytoriów i liczbę bajtów napisanych w użytych językach dla danego użytkownika.
+# How to start:
 
-# Jak uruchomić:
+In order to run the application one must download file Github_repositories.apk
 
-Aby uruchomić aplikację należy uruchomić plik Github_repositories.apk
+# Specification:
 
-# Założenia:
+The application requires an Android version no lower than 7.0 (API 24)
+As of writing this description, 89% of all Android devices fit the requirement, which means that almost every device should be able to run the application.
+The project has been created with JDK 11, as it's been the newest LTS before the release of still quite new JDK 17.
 
-Aplikacja zakłada, że użytkownik posiada wersję systemu android nie starszą niż 7.0 (API 24)
-Wersja ta jest zainstalowana na około 89% urządzeń z sytemem Android, co powinno zagwarantować poprawne działanie na praktycznie wszystkich używanych urządzeniach.
-Do projektu zostało użyte JDK 11 jako, że przed wyjściem stosunkowo jeszcze nowego JDK 17, był to najnowszy LTS, na którym to zbudowana jest bardzo duża część aplikacji.
+# Algorithm safety:
 
-# Zabezpieczenia:
+The algorithm can handle these exceptions:
+-invalid username
+-many pages of repositories on the user's profile
+-lack of repositories on the user's profile
 
-Algorytm przewiduje m.in. następujące okoliczności i zapobiega zatrzymaniu się/nieprawidłowemu działaniu aplikacji w przypadku ich wystąpienia:<br />
--nieprawidłowa nazwa użytkownika<br />
--kilka stron repozytoriów na profilu podanego użytkownika<br />
--brak repozytoriów
+# Bonus features:
 
-# Udogodnienia:
+The application contains some features to make usage more comfortable:
+-hint what to write in the search view
+-after the search is done, searched username is displayed at the top of the screen
+-color pallet resembling that of a Github
 
-Aby zwiększyć przyjemność wynikającą z użytkowania zdecydowałem się na dodanie następujących rzeczy:<br />
--podpowiedź co należy wpisać w polu wyszukiwania<br />
--po wyjściu z wyszukiwania na górnymn pasku wyświetla się wpisana nazwa użytkownika<br />
--paleta kolorów przypomająca tą z serwisu Github
+# Ideas for future development:
 
-# Pomysły na dalszy rozwój aplikacji: 
+Some ideas I got for project development in future iterations:
+-adding the descriptions and creation dates for repositories
+-adding a profile picture of searched user
+-user authorization in order to allow a view of private repositories 
+-adding colors for each language as on Github to make the application more visually appealing
+-adding a possibility of going to the Github website to inspect the repository thoroughly
+-search of repositories for a given user
+-hints during the search
 
-Podczas rozwoju projektu wpdłem na kilka pomysłów jak możnaby go dalej rozbudować, a o to kilka z nich:<br />
--dodanbie opisów i dat utworzenia repozytoriów<br />
--dodanie zdjęcia profilowego przeglądanego użytkownika do paska<br />
--autoryzacja użytkownika w celu możliwości przeglądania prywatnych repozytoriów udostępnionych do wglądu danemu użytkownikowi<br />
--dodanie kolorków odpowiadających każdemu językowi tak jak na platformie Github, by uczynić aplikację atrakcyjniejszą wizualnie<br />
--dodanie możliwości przeniesienia na stronę github, by móc dogłębnie przejrzeć dane repozytorium.<br />
--wyszukiwanie repozytoriów dla danego użytkownika<br />
--podpowiedzi przy wyszukiwaniu
+# Problems to solve:
 
-# Problemy napotkane przy tworzeniu projektu:
+Inaccessibility of java.net.http. and another post-Java 8 external, non-language features
 
-Częścią życia programisty jest borykanie się z błędami i nie powinno się wstydzić o tym mówić. Wszystkie problemy udało mi się rozwiązać stosunkowo szybko, jednak sen z powiek spędzał mi brak możliwości używania biblioteki java.net.http.
-
-Owa biblioteka została dodana w 11 wersji Javy, co nie powinno stanowić problemu, gdyż takiej właśnie wersji używałem w projekcie. Na pewno też nie używałem wersji przed 10, gdyż "var", które zostało dodane w owej wersji działało poprawnie. Po licznych próbach naprawy importu poprzez reinstalację javy, grzebania w konfiguracji projektu i próbowania innych wersji JDK, gradle oraz API ostatecznie poradziłem sobie z problemem poprzez napisanie http requesta w stary sposób, sprzed dodania omawianej biblioteki. Podejrzewam, że problemem było JDK, jednak jeszcze nie udało mi się tego ustalić, a czasu brak. Jest to główny powód z którego wynika moje opóźnienie, za co najmocniej przepraszam.
