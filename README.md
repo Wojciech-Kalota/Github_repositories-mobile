@@ -1,6 +1,6 @@
 # Github repositories:
 
-Mobile application displaying a list of repositories, languages used, and amount of bites codded in each language for a specified user.
+Mobile application displaying a list of repositories, languages used, and amount of bites codded in each language for a specified user.<br />
 
 # How to start:
 
